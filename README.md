@@ -1,9 +1,26 @@
 # Pdf-generator
 
+This script reads user data from a **CSV or JSON** file and generates **personalized PDF reports** for each user. It's perfect for automating report creation using structured data.
 
+Features
 
+- Supports both `.csv` and `.json` input files
+- Creates clean, personalized reports for each user
+- Saves all reports to a dedicated `reports/` folder
 
-
+Step-by-Step Instructions
+1. Install Required Libraries
+   pip install pandas fpdf
+2. Prepare input file:- Create a .csv or .json file with the following columns
+   name
+   age
+   email
+   address
+3. Run the script
+   python generate_pdf_reports.py
+   #You will be prompted to enter the path to your CSV or JSON file:
+   - Enter the full path of your csv or json file.
+4. All generated PDF files will be saved in a folder called reports
 
 
 
