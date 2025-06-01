@@ -8,7 +8,8 @@ Features
 - Creates clean, personalized reports for each user
 - Saves all reports to a dedicated `reports/` folder
 
-Step-by-Step Instructions
+Flow:
+
 1. Install Required Libraries
    pip install pandas fpdf
 2. Prepare input file:- Create a .csv or .json file with the following columns
