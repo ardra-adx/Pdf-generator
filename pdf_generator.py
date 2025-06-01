@@ -19,10 +19,9 @@ class PDFReport(FPDF):
 
     def add_user_data(self, user_data):
         self.set_font("Arial", size=12)
-        # Show only required fields in specific order
         fields = ['name', 'age', 'email', 'address']
         for field in fields:
-            value = user_data.get(field, 'N/A')  # Use 'N/A' if field is missing
+            value = user_data.get(field, 'N/A') 
             self.cell(0, 10, f"{field}: {value}", ln=True)
         self.ln(10)
 
