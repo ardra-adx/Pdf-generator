@@ -17,7 +17,7 @@ Step-by-Step Instructions
    email
    address
 3. Run the script
-   python generate_pdf_reports.py
+   python pdf_generate.py
    #You will be prompted to enter the path to your CSV or JSON file:
    - Enter the full path of your csv or json file.
 4. All generated PDF files will be saved in a folder called reports
